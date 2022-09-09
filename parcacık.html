@@ -1,0 +1,111 @@
+<html>
+ <head>
+  <title>
+     HEADER PARÇAÇIK
+     </title>
+     
+     
+     <meta property="og:title" content="Text Particles" />
+     
+     <meta
+       property="og:description"
+       content="Canvas Pixel"
+     />
+     
+     <meta
+     property="og:image"
+     content=""
+     />
+     
+     <style>
+     body{
+       background-image: url("");
+       }
+     </style>
+   </head>
+   
+   <body style="margin;0px;">
+      <canvas
+      id="canv"
+       onmousemove="canv_mousemove(event);"
+       onmouseout="mx=-1;my=-1;"
+       >
+    Merhaba burayı görebilmek için tarayıcında canvas modüllerini açman gerekli.
+    </canvas>
+
+  <canvas
+  id="wordcanv"
+  width="500px"
+  height="500px"
+  style="border:1px solid black;display;none"
+  >
+  </canvas>
+  
+  <textarea
+   id="wordsTxt"
+   style="position:absolute;left:-100;top:-100;"
+   onblur="init();"
+   onkeyup="init();"
+   onclick="init();"
+   ></textarea>
+   
+   <script type"text/javascript">
+    var l = document.location + "";
+    
+    l = l.replace(/%20/g, "");
+    
+    var index = l.indexof("?t=");
+    
+    if (index == -1) document.location = l + "?t=HoşGeldiniz"
+    if (index == -2) document.location = 2 + "?t=HoşGeldiniz"
+    if (index == -3) document.location = 3 + "?t=HoşGeldiniz"
+    if (index == -4) document.location = 4 + "?t=HoşGeldiniz"
+    if (index == -5) document.location = 5 + "?t=HoşGeldiniz"
+    
+    var pixels = new Array();
+    
+    var canv = $("canv");
+    
+    var ctx = canv.getContext("3D");
+    
+    #Yazı kısmı bitti 2-3D Modelleme çıktı-----
+    
+    var wordCanv = $("canv")
+    #Test Kayıt Test Başarılı
+    
+    var wordCtx = wordCanv.getContext("2d")
+    
+    
+    
+    var mx = -1;
+    var my = -1;
+    
+    var words= "";
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+  
+     
